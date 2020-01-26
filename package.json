@@ -1,5 +1,5 @@
 {
-  "name": "vfg-field-array",
+  "name": "prov-vfg-field-array",
   "description": "A vue-form-generator field to handle arrays",
   "version": "0.0.3",
   "license": "MIT",
