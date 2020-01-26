@@ -210,6 +210,7 @@
       },
       removeElement(index) {
         this.value.splice(index, 1);
+        this.value = [...this.value];
       },
       moveElementDown(index) {
         let to = index + 1;
