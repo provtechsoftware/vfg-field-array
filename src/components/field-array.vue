@@ -217,6 +217,7 @@
           to = 0;
         }
         this.value.splice(to, 0, this.value.splice(index, 1)[0]);
+        this.value = [...this.value];
       },
       moveElementUp(index) {
         let to = index - 1;
@@ -224,6 +225,7 @@
           to = this.value.length;
         }
         this.value.splice(to, 0, this.value.splice(index, 1)[0]);
+        this.value = [...this.value];
       },
       getFieldType(fieldSchema) {
         return "field-" + fieldSchema.type;
